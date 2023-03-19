@@ -1,0 +1,26 @@
+<body style="background-color:black"><div *ngIf="food" class="container">
+    <img [src]="food.imageUrl" [alt]="food.name">
+    <div class="details" style="color:brown">
+        <div class="header">
+            <span class="name">
+                {{food.name}}
+            </span>
+            <span class="favorite {{food.favorite?'':'not'}}">
+            </span>
+        </div>
+
+
+        <div class="price">
+            <span>{{food.price|currency:'INR'}}</span>
+        </div>
+        <div class="description">
+            <span>{{food.description}}</span>
+        </div>
+        <br>
+        <button (click)="addToCart()">Add To Cart</button><br/>
+        <button (click)="BackToHome()">Go Back To HomePage</button>
+        <br>
+    </div>
+    
+</div></body>
+<!--Your delivery Records-->

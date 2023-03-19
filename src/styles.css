@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+html{ 
+    font-size: 16px;
+}
+.footer{
+    background: black;
+  }
+  .footer .footer-link{
+    font-size:1rem;
+    color:red;
+    padding:0 1.875rem;
+  }
+  .footer .footer-link:hover{
+    color:red;
+  }
+  .footer a i{
+    font-size: 1.5rem;
+    color:red;
+    padding:0 1rem;
+  }

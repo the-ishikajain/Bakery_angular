@@ -1,0 +1,26 @@
+#sa{
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#cd{
+    height: 400px;
+    margin: 80px;
+    background-color: red;
+    padding: 30px;
+  }
+  img{
+    height: 150px;
+    width: 150px;
+    float: right;
+  }
+  button{
+    float: left;
+    margin-left: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: brown;
+  }
+  button:hover{
+    background-color: palevioletred;
+    color: white;
+  }
